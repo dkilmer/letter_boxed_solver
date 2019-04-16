@@ -47,3 +47,4 @@ letter_boxed_solver /path/to/words.txt RKM,UIC,PHG,NAY
 
 * This is the first program I've written in Rust. It's probably not very good code.
 * The program uses a kind of interesting "word mask" technique, where each letter present in a word is encoded as a binary digit. This allows really fast comparisons between words to see if they contain the same letters.
+* The program handles normal four-sided letter-boxed puzzles, but it can also solve any puzzle with three or more sides.
